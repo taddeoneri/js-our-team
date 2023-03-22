@@ -50,9 +50,9 @@ for(let i = 0; i < member.length; i++){
     const memberTeam = 
     `
     <div class="col-4">
-        <div class="card"">
+        <div class="card my-3">
             <img src="./img/${member[i].image}" class="card-img-top" alt="">
-            <div class="card-body">
+            <div class="card-body text-center">
                 <h4 class="card-text">${member[i].name + ' ' + member[i].surname}</h4>
                 <p class="card-text">${member[i].role}</p>
             </div>
